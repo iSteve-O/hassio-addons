@@ -4,7 +4,6 @@
 
 - Update Homebridge to `latest` official container image.
 - Update bashio to 0.16.2.
-- Update debian-base to 7.6.3
 - Change various details in docs
 
 ## [0.1.8] - 2024-01-06
