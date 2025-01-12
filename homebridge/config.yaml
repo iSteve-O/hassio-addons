@@ -1,9 +1,9 @@
 name: Homebridge
-version: 0.1.8
+version: 0.2.0
 stage: experimental
 slug: homebridge
-description: Lightweight HomeKit API implementation with plugin support
-url: https://github.com/davide125/hassio-addons/tree/main/homebridge
+description: Lightweight HomeKit API implementation with plugin support & auto-update
+url: https://github.com/isteve-o/hassio-addons/tree/main/homebridge
 arch:
   - armv7
   - aarch64
@@ -17,4 +17,4 @@ host_network: true
 init: false
 map:
   - addon_config:rw
-image: davide125/{arch}-addon-homebridge
+image: isteve-o/{arch}-addon-homebridge
