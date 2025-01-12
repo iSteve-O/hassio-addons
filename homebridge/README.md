@@ -15,7 +15,7 @@ Note that Home Assistant supports HomeKit natively these days, both as a [contro
     *If moving from an old HB add-on, remove it first.
 2. Install Homebridge from the add-on store once visible.
 
-    If previously using another HB add-on, you may have to delete its repo also.
+    *If previously using another HB add-on, you may have to delete its repo also.
 4. Tap START to begin running the add-on. (See below if restoring from backup)
 
     <b>*If restoring from a backup, stop the old instance first for the best chance of a successful restore.</b> (see below)
