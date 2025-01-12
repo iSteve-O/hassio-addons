@@ -1,4 +1,4 @@
-# Davide's Home Assistant Add-Ons
+# iSteve-O's Home Assistant Add-Ons
 
 This is a personal repository for [Home Assistant](https://www.home-assistant.io) add-ons.
 
@@ -7,7 +7,7 @@ This is a personal repository for [Home Assistant](https://www.home-assistant.io
 * Go to the Supervisor panel in Home Assistant
 * Go to the "Add-on Store" tab
 * Click the "three dots" icon in the top right corner and choose "Repositories"
-* Paste `https://github.com/davide125/hassio-addons` in the "Add" text field and click "Add", then "Close"
+* Paste `https://github.com/isteve-o/hassio-addons` in the "Add" text field and click "Add", then "Close"
 
 ## Add-ons
 
