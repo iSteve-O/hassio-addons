@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0] - 2025-01-12
+
+- Update Homebridge to `latest` official container image.
+- Update bashio to 0.16.2.
+- Update debian-base to 7.6.3
+- Change various details in docs
+
 ## [0.1.8] - 2024-01-06
 
 - Update Homebridge to 2023-12-30 and switch to the official container image.
