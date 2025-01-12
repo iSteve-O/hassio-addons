@@ -17,4 +17,4 @@ host_network: true
 init: false
 map:
   - addon_config:rw
-image: isteve-o/{arch}-addon-homebridge
+image: isteveo/{arch}-addon-homebridge
