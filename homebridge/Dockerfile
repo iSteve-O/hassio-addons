@@ -5,7 +5,7 @@ FROM homebridge/homebridge:latest
 RUN find /etc/s6-overlay/ -type f | xargs sed -i -E 's:([ "])/homebridge:\1/config:g'
 
 # add bashio
-ADD https://github.com/hassio-addons/bashio/archive/v0.16.2.tar.gz /tmp/bashio.tar.gz
+ADD https://github.com/hassio-addons/bashio/archive/refs/tags/v0.16.2.tar.gz /tmp/bashio.tar.gz
 RUN apt-get update \
     && apt-get install --no-install-recommends -y curl jq \
     && apt-get clean \
@@ -19,7 +19,7 @@ RUN apt-get update \
     && ln -s /usr/lib/bashio/bashio /usr/bin/bashio
 
 # Add the nice banner
-ADD https://raw.githubusercontent.com/hassio-addons/addon-debian-base/v7.6.3/base/rootfs/etc/cont-init.d/00-banner.sh /etc/s6-overlay/s6-rc.d/banner/
+ADD https://raw.githubusercontent.com/hassio-addons/addon-debian-base/v5.1.0/base/rootfs/etc/cont-init.d/00-banner.sh /etc/s6-overlay/s6-rc.d/banner/
 RUN mkdir -p /etc/s6-overlay/s6-rc.d/banner && \
     echo "oneshot" > /etc/s6-overlay/s6-rc.d/banner/type && \
     echo "/etc/s6-overlay/s6-rc.d/banner/script" > /etc/s6-overlay/s6-rc.d/banner/up && \
