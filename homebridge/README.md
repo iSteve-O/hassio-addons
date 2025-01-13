@@ -2,7 +2,7 @@
 
 This is a [Homebridge](https://homebridge.io) add-on for [Home Assistant](https://www.home-assistant.io). Homebridge provides a lightweight HomeKit API implementation with plugin support.
 
-Unlike the [original](https://github.com/davide125/hassio-addons/tree/main/homebridge), this version will always use the latest docker image to ensure Homebridge is always updated. This could cause unintended behaviour, so be sure this is really what you want. 
+Unlike the [original](https://github.com/davide125/hassio-addons/tree/main/homebridge), this version will always try to use the latest docker image to ensure Homebridge is always updated. This could cause unintended behaviour, so be sure this is really what you want. 
 
 This will not be a good solution for people using older plugins that are not compatible with the latest Homebridge version (2.x as of today).
 
@@ -37,4 +37,4 @@ If your old Homebridge instance is not fully up to date, restoring the backup co
 
 
 ## Credits
-This add-on and its repo were forked from [Davide125](https://github.com/davide125/hassio-addons) so I could try to allow it to auto-update the docker image with each add-on restart. This add-on uses the latest image of ([Docker Homebridge](https://github.com/homebridge/docker-homebridge) directly from its source. The add-on icon is from [Homebridge](https://github.com/homebridge/homebridge).
+This add-on and its repo were forked from [Davide125](https://github.com/davide125/hassio-addons) so I could try to update the docker image more often. This add-on uses the latest image of ([Docker Homebridge](https://github.com/homebridge/docker-homebridge) directly from its source. The add-on icon is from [Homebridge](https://github.com/homebridge/homebridge).
