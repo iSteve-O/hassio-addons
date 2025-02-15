@@ -37,4 +37,4 @@ If your old Homebridge instance is not fully up to date, restoring the backup co
 
 
 ## Credits
-This add-on and its repo were forked from [Davide125](https://github.com/davide125/hassio-addons) so I could try to update the docker image more often. This add-on uses the latest image of ([Docker Homebridge](https://github.com/homebridge/docker-homebridge) directly from its source. The add-on icon is from [Homebridge](https://github.com/homebridge/homebridge).
+This add-on and its repo were forked from [Davide125](https://github.com/davide125/hassio-addons) so I could try to update the docker image more often. This add-on uses the latest image of [Docker Homebridge](https://github.com/homebridge/docker-homebridge) directly from its source. The add-on icon is from [Homebridge](https://github.com/homebridge/homebridge).
