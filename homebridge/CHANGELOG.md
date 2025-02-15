@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.2.1] - 2025-02-15
+
+- Update Homebridge to `latest` official container image.
+
 ## [0.2.0] - 2025-01-12
 
 - Update Homebridge to `latest` official container image.
