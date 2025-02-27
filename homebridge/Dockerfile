@@ -5,7 +5,7 @@ FROM homebridge/homebridge:latest
 RUN find /etc/s6-overlay/ -type f | xargs sed -i -E 's:([ "])/homebridge:\1/config:g'
 
 # add bashio
-ADD https://github.com/hassio-addons/bashio/archive/refs/tags/v0.16.2.tar.gz /tmp/bashio.tar.gz
+ADD https://github.com/hassio-addons/bashio/archive/refs/tags/v0.16.3.tar.gz /tmp/bashio.tar.gz
 RUN apt-get update \
     && apt-get install --no-install-recommends -y curl jq \
     && apt-get clean \
