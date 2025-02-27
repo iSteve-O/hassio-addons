@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.2.2] - 2025-02-27
+
+- Update Homebridge to `latest` official container image.
+- Update bashio to 0.16.3.
+
 ## [0.2.1] - 2025-02-15
 
 - Update Homebridge to `latest` official container image.
